@@ -7,7 +7,7 @@ public class App {
         Viaje viajeCasero = new Viaje("Balaguer", 3, 120);
         Viaje viajePlaya = new Viaje("Costa Brava", 8, 700);
 
-        // añadir viajea al array de viajes
+        // añadir viaje a al array de viajes
         ArrayList<Viaje> catalogoViajes = new ArrayList<>();
         catalogoViajes.add(viajeLujo);
         catalogoViajes.add(viajeCasero);
