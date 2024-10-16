@@ -5,13 +5,7 @@ public class Viaje {
     private int dias;
     private double precio;
 
-    /**
-     * funcion constructora del objeto
-     * @param pais {String}
-     * @param dias {int}
-     * @param precio {double}
-     * @return una instancia del objeto {Viaje}
-     */
+   
     public Viaje(String pais, int dias, double precio) {
         this.pais = pais; 
         this.dias = dias;
@@ -20,10 +14,7 @@ public class Viaje {
 
     
     // GETTERS ---
-    /**
-     * Lee el pais de ese viaje
-     * @return {String} - el pais
-     */
+
     public String getPais() {
         return this.pais; // devuelve el que encuentra aquí
     }
@@ -49,10 +40,7 @@ public class Viaje {
         this.precio = precio;
     }
 
-    /**
-     * to string personalizado
-     * @return {string} pais dias y precio
-     */
+   
     @Override
     public String toString(){
         return "la destinacion es: " + getPais() + ", la cantidad de días es de " + getDias()
