@@ -4,6 +4,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         /**
          * instanciamos el tipo de viaje
+         * probando cambio desde github
          * @params = pais{string} -solo EU y America, dias{int} -entre 3 y 7 dias, precio{double} -en euros
          */
         Viaje viajeLujo = new Viaje("Japón", 20, 3500); //6.instanciar objeto
